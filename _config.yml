@@ -69,9 +69,6 @@ author:
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/noveler17"
 
-github:
-  username: noveler17
-
 footer:
   links:
     - label: "Email"
