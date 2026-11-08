@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "태그스타 공략",
-  "short_name": "태그스타 공략",
-  "description": "태그스타 배틀 준비와 가방 관리",
+  "name": "태그스타 챙겨 가자",
+  "short_name": "태그스타 챙겨 가자",
+  "description": "가진 태그로 다음 배틀 준비하기",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",
