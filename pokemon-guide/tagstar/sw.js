@@ -1,6 +1,6 @@
-const CACHE="tagstar-4489663d-a54031c153f4";
+const CACHE="tagstar-4489663d-aad0b38c1bf1";
 const PREFIX="tagstar-4489663d-";
-const FILES=["/pokemon-guide/assets/styles-BE1lgNWJ.js","/pokemon-guide/assets/styles-CUf7dFxD.css","/pokemon-guide/assets/tagstar-DEXnUOke.css","/pokemon-guide/assets/tagstar-m1gqf2mJ.js","/pokemon-guide/favicon.svg","/pokemon-guide/tagstar/","/pokemon-guide/tagstar/icon-192.png","/pokemon-guide/tagstar/icon-512.png","/pokemon-guide/tagstar/index.html","/pokemon-guide/tagstar/manifest.webmanifest"];
+const FILES=["/pokemon-guide/assets/styles-BE1lgNWJ.js","/pokemon-guide/assets/styles-CUf7dFxD.css","/pokemon-guide/assets/tagstar-CUyLmsJv.js","/pokemon-guide/assets/tagstar-d34aHt7z.css","/pokemon-guide/favicon.svg","/pokemon-guide/tagstar/","/pokemon-guide/tagstar/icon-192.png","/pokemon-guide/tagstar/icon-512.png","/pokemon-guide/tagstar/index.html","/pokemon-guide/tagstar/manifest.webmanifest"];
 const SCOPE="/pokemon-guide/tagstar/";
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});

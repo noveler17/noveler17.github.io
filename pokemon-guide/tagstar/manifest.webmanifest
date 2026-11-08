@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "태그찾기",
-  "short_name": "태그찾기",
+  "name": "태그스타 공략",
+  "short_name": "태그스타 공략",
   "description": "태그스타 배틀 준비와 가방 관리",
   "lang": "ko",
   "start_url": "./",
