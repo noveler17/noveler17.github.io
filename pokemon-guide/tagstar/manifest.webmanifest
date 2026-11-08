@@ -10,7 +10,8 @@
   "background_color": "#f7f8f4",
   "theme_color": "#315d46",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "gardevoir-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "gardevoir-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "gardevoir-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
