@@ -1,0 +1,1 @@
+import{r as e}from"./sites-Di4oTS-R.js";var t=e();function n(){return(0,t.jsx)(`img`,{src:`/pokemon-guide/tagstar/gardevoir-192.png`,width:192,height:192,alt:``,"aria-hidden":`true`})}export{n as t};

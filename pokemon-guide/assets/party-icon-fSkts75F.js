@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./sites-Di4oTS-R.js";var n=t();function r(){return(0,n.jsx)(`img`,{src:`/pokemon-guide/${e.directory}/${e.stem}-192.png`,width:192,height:192,alt:``,"aria-hidden":`true`})}export{r as t};
